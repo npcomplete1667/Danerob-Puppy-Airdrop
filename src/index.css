@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Akira Expanded";
+  src: url("./assets/fonts/AkiraExpanded.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Akira Expanded Bold";
+  src: url("./assets/fonts/AkiraExpanded-Bold.woff2") format("woff2");
+}
+
+* {
+  font-family: Akira Expanded !important;
+  font-weight: 900;
+}
+
+body {
+  background: #000000;
+  margin: 0;
+  font-family: Akira Expanded Bold, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.wrapper {
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.mint-button:hover {
+  background-color: #b9b9b9 !important;
+}

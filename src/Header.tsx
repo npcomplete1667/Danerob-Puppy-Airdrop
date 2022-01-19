@@ -39,7 +39,7 @@ export const Header = ({ candyMachine }: HeaderProps) => {
                 color="textPrimary"
                 style={{ fontWeight: 'bold' }}
               >
-              {formatNumber.asNumber(candyMachine?.state.price!)} DANE
+              {formatNumber.asNumber(candyMachine?.state.price!)} $DANE
               </Typography>
             </Grid>
           </Grid>
